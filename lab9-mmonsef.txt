@@ -1,0 +1,41 @@
+
+PLAY [update config_ops445.yml] ************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [vmlab]
+
+TASK [updateing Apache] ********************************************************
+ok: [vmlab]
+
+TASK [installing the EPEL packages repository] *********************************
+ok: [vmlab]
+
+TASK [removeing the tree package] **********************************************
+ok: [vmlab]
+
+TASK [set hostname] ************************************************************
+ok: [vmlab]
+
+TASK [createing a new user with the sudo] **************************************
+ok: [vmlab]
+
+TASK [Create .ssh  for mmonsef] ************************************************
+ok: [vmlab]
+
+TASK [set authorized key] ******************************************************
+ok: [vmlab]
+
+TASK [seting up the directory using a loop] ************************************
+ok: [vmlab] => (item=1)
+ok: [vmlab] => (item=2)
+ok: [vmlab] => (item=3)
+ok: [vmlab] => (item=4)
+ok: [vmlab] => (item=5)
+ok: [vmlab] => (item=6)
+ok: [vmlab] => (item=7)
+ok: [vmlab] => (item=8)
+ok: [vmlab] => (item=9)
+
+PLAY RECAP *********************************************************************
+vmlab                      : ok=9    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
