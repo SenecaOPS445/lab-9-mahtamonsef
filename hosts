@@ -30,7 +30,7 @@
 
 # Ex 3: A collection of database servers in the 'dbservers' group
 
-##[dbservers]
+## [dbservers]
 ## 
 ## db01.intranet.mydomain.net
 ## db02.intranet.mydomain.net
