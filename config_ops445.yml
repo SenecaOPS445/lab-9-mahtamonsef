@@ -1,5 +1,5 @@
 ---
-- name:  update config_ops445.yml
+- name:  update config_ops445
   hosts: vmlab
   user: student
   become: yes
